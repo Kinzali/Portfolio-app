@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from './NavBarComponent';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import the FontAwesome GitHub and LinkedIn icons
-import profilePic from '../assets/images/header/Kinza.jpg'; // Import the profile picture
+import profilePic from '../assets/images/kinzaa.png'; // Import the profile picture
 
 const Header = () => {
   return (
@@ -16,9 +16,8 @@ const Header = () => {
           Data Engineer | Data Analyst
         </h3>
         <p className="text-xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl tracking-wider">
-          Experienced Software Engineer skilled in SaaS development and a
-          Microsoft Certified Power BI Data Analyst. Proactive in optimizing
-          network connectivity trials.
+          Passionate Data Analyst and Engineer committed to unlocking insights
+          and driving impactful solutions
         </p>
         <div className="text-5xl flex justify-center gap-12 py-3 text-gray-600 dark:text-gray-400">
           <a
