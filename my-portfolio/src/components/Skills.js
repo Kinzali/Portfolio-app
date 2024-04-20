@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section>
       <div className="container mx-auto px-1">
-        <h3 className="text-3xl py-3 dark:text-white">
+        <h3 className="text-3xl py-3  dark:text-white">
           Skills / Services I offer
         </h3>
 
@@ -18,7 +18,7 @@ const Skills = () => {
       </div>
       <div className="container mx-auto px-1">
         <div className="md:flex gap-10">
-          <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+          <div className="text-center  p-10 my-20 dark:bg-white flex-1">
             <img
               className="mx-auto"
               src={webImage}
@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
 
           {/* Data Analysis Section */}
-          <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+          <div className="text-center  p-10  my-20 dark:bg-white flex-1">
             <img
               className="mx-auto"
               src={dataImage}
@@ -58,7 +58,7 @@ const Skills = () => {
           </div>
 
           {/* Consulting Section */}
-          <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+          <div className="text-center  p-10  my-20 dark:bg-white flex-1">
             <img
               className="mx-auto"
               src={devopsImage}
