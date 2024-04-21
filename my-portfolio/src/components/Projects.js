@@ -5,6 +5,7 @@ import PowerBIImage from '../assets/images/Power-bi.jpeg';
 import EventDataImage from '../assets/images/Event-data.jpeg';
 import CarnationImage from '../assets/images/Carnation.jpeg';
 import PortfolioImage from '../assets/images/Portfolio.jpeg';
+import BreweriesImage from '../assets/images/Breweries app.jpeg';
 
 const Projects = () => {
   return (
@@ -167,23 +168,23 @@ const Projects = () => {
             <div className="w-full" style={{ width: '400px', height: '250px' }}>
               <img
                 className="mx-auto h-full w-full object-cover"
-                src={PowerBIImage}
+                src={BreweriesImage}
                 alt="web"
               />
             </div>
             <p className="py-4">
               <span className="text-teal-800 tracking-wider">
-                Power BI project:{' '}
+                Breweries React App:{' '}
               </span>
               <span className="text-gray-800 tracking-wider">
-                Analyzing network insights, identifying top-performing sectors,
-                and improving user throughput.
+                Fetches brewery data from an API and displays it on cards,
+                offering details about species, locations, and storage.
               </span>
             </p>
             {/* Buttons with equal width using flex-1 */}
             <div className="flex justify-between mt-4 gap-20">
               <a
-                href="https://github.com/Kinzali/Power-BI-Telecom-Analysis?tab=readme-ov-file"
+                href="https://github.com/Kinzali/Breweries-App"
                 className="flex-1 bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded"
               >
                 Details
