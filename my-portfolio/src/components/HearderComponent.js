@@ -13,11 +13,11 @@ const Header = () => {
           Kinza Ali
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Data Engineer | Data Analyst
+          Data & IT Enthusiast
         </h3>
         <p className="text-xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl tracking-wider">
-          Passionate Data Analyst and Engineer committed to unlocking insights
-          and driving impactful solutions
+          Passionate about Data and Technology, committed to unlocking insights
+          and driving innovative solutions across multiple disciplines.
         </p>
         <div className="text-5xl flex justify-center gap-12 py-3 text-gray-600 dark:text-gray-400">
           <a
