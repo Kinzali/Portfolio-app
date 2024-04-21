@@ -9,7 +9,7 @@ import BreweriesImage from '../assets/images/Breweries app.jpeg';
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="container mx-auto px-1">
         <h3 className="text-3xl mt-20 dark:text-white">Projects</h3>
       </div>

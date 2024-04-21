@@ -15,29 +15,31 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="text-gray-800 font-bold text-lg">
-              <h1>KA</h1>
+              <a href="#header">
+                <h1>KA</h1>
+              </a>
             </div>
           </div>
 
           {/* Navigation Links (Hidden on Mobile) */}
           <div className="hidden md:flex md:items-center">
             <a
-              href="#projects"
+              href="#skills"
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
             >
               Skills
             </a>
             <a
-              href="#about"
+              href="#projects"
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
             >
               Projects
             </a>
             <a
-              href="#about"
+              href="#contact"
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
             >
-              Certifications
+              Contact
             </a>
           </div>
 
@@ -80,10 +82,10 @@ const Navbar = () => {
           <div className="md:hidden">
             <div className="flex flex-col">
               <a
-                href="#contact"
+                href="#skills"
                 className="text-gray-800 hover:text-gray-600 px-4 py-2 border-b-2 border-transparent"
               >
-                Contact
+                Skills
               </a>
               <a
                 href="#projects"
@@ -92,10 +94,10 @@ const Navbar = () => {
                 Projects
               </a>
               <a
-                href="#about"
+                href="#contact"
                 className="text-gray-800 hover:text-gray-600 px-4 py-2 border-b-2 border-transparent"
               >
-                About
+                Contact
               </a>
             </div>
           </div>

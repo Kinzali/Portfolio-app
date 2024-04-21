@@ -5,7 +5,7 @@ import devopsImage from '../assets/images/Devops.png';
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills">
       <div className="container mx-auto px-1">
         <h3 className="text-3xl py-3  dark:text-white">
           Skills / Services I offer
