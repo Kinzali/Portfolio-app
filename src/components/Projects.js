@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="container mx-auto px-1">
-        <h3 className="text-3xl mt-20 dark:text-white">Projects</h3>
+        <h3 className="text-4xl text-center mt-20 dark:text-white">Projects</h3>
       </div>
       <div className="container mx-auto px-1">
         <div className="md:flex gap-10">

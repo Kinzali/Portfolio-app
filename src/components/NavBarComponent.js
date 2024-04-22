@@ -35,12 +35,6 @@ const Navbar = () => {
             >
               Projects
             </a>
-            <a
-              href="#contact"
-              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
-            >
-              Contact
-            </a>
           </div>
 
           {/* Mobile Toggle Button */}
@@ -92,12 +86,6 @@ const Navbar = () => {
                 className="text-gray-800 hover:text-gray-600 px-4 py-2 border-b-2 border-transparent"
               >
                 Projects
-              </a>
-              <a
-                href="#contact"
-                className="text-gray-800 hover:text-gray-600 px-4 py-2 border-b-2 border-transparent"
-              >
-                Contact
               </a>
             </div>
           </div>

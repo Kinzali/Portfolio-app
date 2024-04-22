@@ -2,9 +2,11 @@
 import React from 'react';
 import Navbar from './NavBarComponent';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import the FontAwesome GitHub and LinkedIn icons
+import { MdEmail } from 'react-icons/md';
 import profilePic from '../assets/images/kinzaa.png'; // Import the profile picture
 
 const Header = () => {
+  const emailAddress = 'kinzali96@gmail.com';
   return (
     <section id="header" className="min-h-screen">
       <Navbar />
@@ -33,6 +35,9 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <FaGithub />
+          </a>
+          <a href={`mailto:${emailAddress}`} rel="noopener noreferrer">
+            <MdEmail />
           </a>
         </div>
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
