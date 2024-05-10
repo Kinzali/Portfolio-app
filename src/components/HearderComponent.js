@@ -14,10 +14,10 @@ const Header = () => {
         <h2 className="text-5xl py-10 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
           Kinza Ali
         </h2>
-        <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Data & IT Enthusiast
+        <h3 className="text-2xl py-2 text-gray md:text-3xl">
+          Software Developer | Data Entusiast
         </h3>
-        <p className="text-xl py-5 leading-8 text-gray-800 dark:text-White-200 max-w-xl mx-auto md:text-xl tracking-wider">
+        <p className="text-xl py-5 leading-8 text-gray-800 max-w-xl mx-auto md:text-xl tracking-wider">
           Passionate about Data and Technology, committed to unlocking insights
           and driving innovative solutions across multiple disciplines.
         </p>

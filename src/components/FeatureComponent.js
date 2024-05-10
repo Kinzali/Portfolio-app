@@ -33,7 +33,7 @@ const FeaturedResources = () => (
   <section id="projects">
     <div className="container mx-auto px-1 mb-20">
       <div>
-        <h3 className="text-4xl text-center mt-10 mb-20 dark:text-white">
+        <h3 className="text-4xl text-center mt-10 mb-20 text-gray-800">
           Featured Projects
         </h3>
       </div>

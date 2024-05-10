@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="container mx-auto px-1">
-        <h3 className="text-4xl text-center py-3  dark:text-white">
+        <h3 className="text-4xl text-center py-3 text-gray-800">
           Skills / Services I offer
         </h3>
       </div>
